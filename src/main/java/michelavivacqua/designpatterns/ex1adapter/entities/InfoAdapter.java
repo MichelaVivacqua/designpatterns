@@ -29,7 +29,7 @@ public class InfoAdapter implements DataSource {
             LocalDate dataCorrente = LocalDate.now();
             int annoCorrente = dataCorrente.getYear();
             System.out.println(annoCorrente);
-            
+
             int eta = annoCorrente - annoDiNascita;
 
             return eta;

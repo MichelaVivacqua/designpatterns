@@ -10,6 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Date;
 
+//https://refactoring.guru/design-patterns/adapter/java/example
+
 @SpringBootApplication
 public class AdapterRunner implements CommandLineRunner {
 
